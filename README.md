@@ -4,7 +4,7 @@ Integration specification for integration between the Citizen Engagement Platfor
 
 The crm folder contains a Visual Studio 2013 solution. 
 
-The CepCrmIntegration project contains three interfaces to be implemented:
+Inside the VS solution is a project CepCrmIntegration containing three interfaces to be implemented:
 
 - FaultService: Register an e-mail based fault and retrieve progress updates
 - FeedbackService: Register feedback and retrieve optional response
