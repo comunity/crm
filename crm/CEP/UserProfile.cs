@@ -30,8 +30,8 @@ namespace CEP
         [StringLength(50)]
         public string Province { get; set; }
 
-        [StringLength(100)]
-        public string Picture { get; set; }
+        [StringLength(2000)]
+        public string PictureUrl { get; set; }
 
         [StringLength(10)]
         public string HomePhone { get; set; }
