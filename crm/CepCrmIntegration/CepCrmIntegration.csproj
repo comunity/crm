@@ -39,6 +39,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Exceptions\ConflictException.cs" />
+    <Compile Include="Exceptions\NotFoundException.cs" />
     <Compile Include="FaultService.cs" />
     <Compile Include="FaultState.cs" />
     <Compile Include="FeedbackService.cs" />

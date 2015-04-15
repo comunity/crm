@@ -10,7 +10,9 @@ namespace CepCrmIntegration
     public interface FaultService
     {
         // Should return a case identifier
-        string RegisterEmailFault(EmailFault fault);
+        // The contact ID is in fault.User.CrmContactId
+        // The EmailAddress field in the fault argument should not be used to update contact information.
+        string RegisterEmailFault(EmailFaultLog fault);
 
         IEnumerable<FaultProgressNote> GetNewProgressForFaultSince(DateTime? timeOfLastProgressNote, string caseId);
 
