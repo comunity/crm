@@ -1,9 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
+﻿// Copyright (c) ComUnity 2016
+// Hans Malherbe <hansm@comunity.co.za>
+
+using System;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CEP
 {

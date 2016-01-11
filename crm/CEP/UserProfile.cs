@@ -1,12 +1,8 @@
-﻿// Copyright (c) ComUnity 2015
+﻿// Copyright (c) ComUnity 2016
 // Hans Malherbe <hansm@comunity.co.za>
 
-using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Web;
 
 namespace CEP
 {
